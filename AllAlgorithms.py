@@ -14,9 +14,9 @@ import numpy as np
 from scipy.ndimage import shift
 import pandas as pd
 
-knn = KNeighborsClassifier(n_neighbors=5)
-logreg = LogisticRegression(max_iter=1000)
-svc = SVC()
+KNN = KNeighborsClassifier(n_neighbors=5)
+logReg = LogisticRegression(max_iter=1000)
+SVC = SVC()
 DTC = DecisionTreeClassifier()
 RFC = RandomForestClassifier()
 GBC = GradientBoostingClassifier()
